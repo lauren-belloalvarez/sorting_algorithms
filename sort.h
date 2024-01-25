@@ -42,4 +42,7 @@ void quick_sort(int *array, size_t size);
 void swap(int *x, int *y);
 void swapnode(listint_t **h, listint_t **n1, listint_t *n2);
 void insertion_sort_list(listint_t **list);
+int lomutosplit(int *array, size_t size, int left, int right);
+void lomutosort(int *array, size_t size, int left, int right);
+
 #endif
